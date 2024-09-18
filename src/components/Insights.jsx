@@ -1,4 +1,6 @@
 import { SiDatabricks, SiGoogleassistant } from "react-icons/si";
+import { motion } from "framer-motion";
+
 
 const Insights = () => {
   const insightsData = [
@@ -15,6 +17,19 @@ const Insights = () => {
       description: "Dynamic visibility tools built to drive engagement.",
     },
   ];
+
+  const cardVariant = {
+    hidden: { opacity: 0, scale: 0.8 },
+    visible:(i)=>( {
+      opacity: 1,
+      scale: 1,
+      transition: {
+        delay: i * 0.2,
+        duration: 0.5,
+        ease: "easeInOut",
+      },
+    }),
+  };
 
   return (
     <section className="w-4/5 m-auto py-20 flex flex-col md:flex-row justify-between space-y-10 md:space-y-0">
