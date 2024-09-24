@@ -1,11 +1,31 @@
+import { useState } from "react";
 
+const faqData = [
+  {
+    question: "Lorem ipsum dolor sit amet consectetur adipisicing.",
+    answer:
+      "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sunt a enim molestias expedita eum numquam!",
+  },
+  {
+    question: "Lorem ipsum dolor sit amet consectetur adipisicing.",
+    answer:
+      "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sunt a enim molestias expedita eum numquam!",
+  },
+  {
+    question: "Lorem ipsum dolor sit amet consectetur adipisicing.",
+    answer:
+      "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sunt a enim molestias expedita eum numquam!",
+  },
+];
 
 const Faq = () => {
-  return (
-    <div>
-      Faq
-    </div>
-  )
+const [openFaq, setOpenFaq] = useState()
+
+const toggleFaq = (index) => {
+  setOpenFaq(openFaq === index ? null : index)
 }
 
-export default Faq
+  return <div></div>;
+};
+
+export default Faq;

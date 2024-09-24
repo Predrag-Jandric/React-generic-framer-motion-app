@@ -1,7 +1,7 @@
 import { FaChartLine } from "react-icons/fa";
 import { motion } from "framer-motion";
 
-// left video at 30:45
+
 
 const Stats = () => {
   const imageVariant = {
