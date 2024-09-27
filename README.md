@@ -1,6 +1,6 @@
-# React - generic framer motion app
+# React - Generic framer motion app
 
-# 🔗 [Live Preview]()
+# 🔗 [Live Preview](https://main--spiffy-bonbon-f655c7.netlify.app/)
 
 ![Design preview](./public/preview.png)
 
