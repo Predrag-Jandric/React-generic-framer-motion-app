@@ -9,7 +9,7 @@ import Testimonials from "./components/Testimonials";
 
 function App() {
   return (
-    <div>
+    <main className="bg-gradient-to-tl from-gray-100 to-gray-200">
       <Navbar />
       <Hero />
       <Insights />
@@ -18,7 +18,7 @@ function App() {
       <Testimonials />
       <Faq />
       <Footer />
-    </div>
+    </main>
   );
 }
 

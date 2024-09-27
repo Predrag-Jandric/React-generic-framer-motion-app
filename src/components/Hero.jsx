@@ -14,18 +14,6 @@ const Hero = () => {
     },
   };
 
-  const buttonVariant = {
-    hidden: { opacity: 0 },
-    visible: {
-      opacity: 1,
-
-      transition: {
-        delay: 0.2,
-        duration: 0.8,
-      },
-    },
-  };
-
   const imageVariant = {
     hidden: { opacity: 0, x: 50 },
     visible: {
